@@ -6,8 +6,18 @@
     <title>Vite Drag Test</title>
     <link rel="stylesheet" href="./src/style.css" />
   </head>
-  <body>
-    <main id="container"></main>
+  <body class="flex flex-col h-screen">
+    <header class="text-center py-4">
+      <h1 class="text-3xl font-bold">Vite Drage Test</h1>
+    </header>
+
+    <main id="flex-grow bg-gray-100 overflow-hidden">
+      <div
+        id="container"
+        class="flex h-[calc(100vh-100px)] w-screen gap-4"
+      ></div>
+    </main>
+
     <script type="module" src="./src/app.ts"></script>
   </body>
 </html>
