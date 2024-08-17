@@ -14,6 +14,7 @@
     "nanoid": "^3.3.7",
     "picocolors": "^1.0.1",
     "rollup": "^4.20.0",
+    "sortablejs": "^1.15.2",
     "source-map-js": "^1.2.0"
   },
   "scripts": {
